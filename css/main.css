@@ -28,21 +28,26 @@ svg {
   margin-bottom: 10px;
   background-repeat: no-repeat;
   background-position: center;
+  filter: invert(100%);
 }
 
 .users {
   background-image: url(../img/users-solid.svg);
+  background-color: #8f3f36;
 }
 .apple {
   background-image: url(../img/cc-apple-pay-brands.svg);
+  background-color: #bf8b42;
 }
 
 .university {
   background-image: url(../img/university-solid.svg);
+  background-color: #1fa1b9;
 }
 
 .random {
   background-image: url(../img/random-solid.svg);
+  background-color: #6e6e6e;
 }
 p {
   color: grey;
