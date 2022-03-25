@@ -18,10 +18,12 @@ body {
 }
 
 .container {
+  position: relative;
   width: 150px;
   margin-left: 35px;
   float: left;
 }
+
 svg {
   width: 150px;
   height: 120px;
@@ -34,7 +36,9 @@ svg {
 .users {
   background-image: url(../img/users-solid.svg);
   background-color: #8f3f36;
+  background-size: 100px;
 }
+
 .apple {
   background-image: url(../img/cc-apple-pay-brands.svg);
   background-color: #bf8b42;
@@ -50,9 +54,66 @@ svg {
   background-color: #6e6e6e;
 }
 p {
+  text-align: center;
   color: grey;
 }
 h1 {
+  margin-bottom: 10px;
+  font-size: 25px;
   color: red;
   text-align: center;
+}
+
+.circle {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+
+  line-height: 18px;
+
+  background-color: white;
+}
+.in1 {
+  color: #70c0c9;
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: white;
+  border: 3px solid #70c0c9;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+.in2 {
+  color: #4074bd;
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: white;
+  border: 3px solid #4074bd;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+.in3 {
+  color: #e05e46;
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: white;
+  border: 3px solid #e05e46;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+.in4 {
+  color: #919191;
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: white;
+  border: 3px solid #919191;
+  position: absolute;
+  top: -12px;
+  left: -12px;
 }
