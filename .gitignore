@@ -1,0 +1,5 @@
+/node_modules
+/primary-img
+/.vscode
+.DS_Store
+package-lock.json
