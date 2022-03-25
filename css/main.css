@@ -1,0 +1,53 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-a {
+  display: inline-block;
+  width: 800px;
+  margin-left: calc(50% - 400px);
+  margin-top: 10%;
+}
+
+.container {
+  width: 150px;
+  margin-left: 35px;
+  float: left;
+}
+svg {
+  width: 150px;
+  height: 120px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.users {
+  background-image: url(../img/users-solid.svg);
+}
+.apple {
+  background-image: url(../img/cc-apple-pay-brands.svg);
+}
+
+.university {
+  background-image: url(../img/university-solid.svg);
+}
+
+.random {
+  background-image: url(../img/random-solid.svg);
+}
+p {
+  color: grey;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
